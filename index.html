@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
@@ -39,9 +39,21 @@
             </li>
           </ul>
         </div>
-        <div class="image">
-          <img src="/images/image-header-desktop.jpg" alt="business meeting" />
-        </div>
+        <picture class="image">
+          <source
+            media="(min-width: 375px)"
+            srcset="./images/image-header-mobile.jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            class="img"
+            src="./images/image-header-mobile.jpg"
+            alt="business meeting"
+          />
+        </picture>
       </div>
     </main>
     <div class="attribution">
