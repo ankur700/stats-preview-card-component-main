@@ -75,7 +75,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   color: hsla(0, 0%, 100%, 0.75);
   font-weight: thin;
   line-height: 1.5rem;
@@ -98,7 +98,7 @@ body {
 }
 
 .stats li > .number {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: hsl(0 0% 100%);
   font-weight: 700;
 }
@@ -142,12 +142,12 @@ body {
     flex-direction: row;
   }
   body {
-    padding: 10rem;
+    padding: 5rem 12rem;
   }
   .image {
     order: 1;
     border: 0;
-    height: 435px;
+    height: 430px;
   }
 
   .image,
@@ -156,12 +156,12 @@ body {
   }
 
   .content {
-    padding: 2rem 4rem;
+    padding: 1rem 3rem;
     width: 50%;
   }
   .heading {
-    font-size: 2rem;
-    margin-bottom: 1.025rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .heading,
