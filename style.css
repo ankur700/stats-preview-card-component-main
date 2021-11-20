@@ -118,7 +118,7 @@ body {
 
 .footer {
   padding: 1rem 1.5rem;
-  background: hsla(244, 38%, 16%, 0.6);
+  background: hsla(0, 0%, 100%, 0.1);
   filter: blur(2px);
   -webkit-filter: blur(2px);
   color: hsl(0 0% 100%);
